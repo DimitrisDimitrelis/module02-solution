@@ -53,8 +53,8 @@ section h2 {
     right: 0;
     top: 0;
     padding: 2px 2px;
-    border-left: aliceblue 1px solid;
-    border-bottom: aliceblue 1px solid;
+    border-left: rgb(198, 204, 209) 1px solid;
+    border-bottom: rgb(198, 204, 209) 1px solid;
 }
 
 section p {
