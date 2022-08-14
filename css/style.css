@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+header {
+    background-color: #636363;
+    padding: 15px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.section-container {
+    margin-top: 40px;
+}
+
+#section-01,
+#section-02,
+#section-03 {
+    position: relative;
+    float: left;
+    border: #000 1px solid;
+    color: aliceblue;
+    width: calc(33.33% - 30px);
+    margin: 10px 15px;
+}
+
+#section-01 {
+    background: #3d4a45;
+}
+
+#section-02 {
+    background: #3d4a1f;
+}
+
+#section-03 {
+    background: #1d4f3d;
+}
+
+section h2 {
+    font-size: 1.25em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: #000 1px solid;
+}
+
+section p {
+    margin: 35px 10px 10px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #section-01 {
+        width: calc(50% - 30px);
+        margin: 10px 15px;
+    }
+
+    #section-02 {
+        width: calc(50% - 30px);
+        margin: 10px 15px;
+    }
+
+    #section-03 {
+        clear: both;
+        width: calc(100% - 30px);
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    #section-01,
+    #section-02,
+    #section-03 {
+        clear: both;
+        width: calc(100% - 30px);
+    }
+}
