@@ -52,7 +52,9 @@ section h2 {
     position: absolute;
     right: 0;
     top: 0;
-    border: #000 1px solid;
+    padding: 2px 2px;
+    border-left: aliceblue 1px solid;
+    border-bottom: aliceblue 1px solid;
 }
 
 section p {
